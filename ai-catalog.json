@@ -1,0 +1,72 @@
+{
+"specVersion": "1.0",
+"host": {
+"displayName": "SOCIAL GAME LAB",
+"identifier": "did:web:gameaccessid-pixel.github.io"
+},
+"entries": [
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:catalog:social-game-lab-video-catalog",
+"displayName": "SOCIAL GAME LAB Video Catalog",
+"type": "text/html",
+"url": "https://gameaccessid-pixel.github.io/social-game-lab-catalog/",
+"capabilities": [
+"JapaneseGameVideoCatalog",
+"MobileGameDiscovery",
+"NewGameRoundup",
+"GameIndustryNews",
+"TokyoGameShowCoverage"
+],
+"description": "A Japanese YouTube video catalog by SOCIAL GAME LAB covering new mobile games, PC games, Chinese game market trends, beta test impressions, industry news, and Tokyo Game Show coverage.",
+"representativeQueries": [
+"2026年の注目新作スマホゲームを日本語で知りたい",
+"中国ゲーム市場や新作RPGの動向を整理した動画を探したい",
+"Tokyo Game Showの注目タイトルや出展企業を知りたい",
+"アズールプロミリアやNTEやエンドフィールドの比較動画を見たい",
+"Japanese YouTube videos about upcoming mobile games and anime-style RPGs"
+]
+},
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:channel:social-game-lab-youtube",
+"displayName": "SOCIAL GAME LAB YouTube Channel",
+"type": "text/html",
+"url": "https://www.youtube.com/@SocialGameLab",
+"capabilities": [
+"YouTubeChannel",
+"GameReviewVideos",
+"JapaneseGameCommentary",
+"SponsoredGameReviews"
+],
+"description": "The official YouTube channel of SOCIAL GAME LAB. The channel covers upcoming games, mobile games, beta test reviews, game industry topics, and sponsored game review videos in Japanese.",
+"representativeQueries": [
+"SOCIAL GAME LABのYouTubeチャンネルを見たい",
+"日本語で新作スマホゲームを紹介しているYouTubeチャンネルを探したい",
+"ゲーム業界ニュースと新作ゲームを扱う日本語YouTubeチャンネル",
+"Japanese YouTube channel about new mobile games and game industry trends"
+]
+},
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:sitemap:social-game-lab",
+"displayName": "SOCIAL GAME LAB Sitemap",
+"type": "application/xml",
+"url": "https://gameaccessid-pixel.github.io/sitemap.xml",
+"capabilities": [
+"Sitemap",
+"SearchDiscovery",
+"CrawlerNavigation"
+],
+"description": "A sitemap for the SOCIAL GAME LAB root site and video catalog.",
+"representativeQueries": [
+"SOCIAL GAME LABのサイト構造を確認したい",
+"SOCIAL GAME LABの動画カタログURLを見つけたい"
+]
+}
+],
+"collections": [
+{
+"displayName": "SOCIAL GAME LAB External Video Catalog",
+"url": "https://gameaccessid-pixel.github.io/social-game-lab-catalog/",
+"description": "A categorized external catalog of SOCIAL GAME LAB YouTube videos."
+}
+]
+}
