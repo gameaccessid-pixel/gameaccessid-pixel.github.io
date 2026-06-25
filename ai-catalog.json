@@ -2,9 +2,30 @@
 "specVersion": "1.0",
 "host": {
 "displayName": "SOCIAL GAME LAB",
-"identifier": "did:web:gameaccessid-pixel.github.io"
+"identifier": "did:web:gameaccessid-pixel.github.io",
+"url": "https://gameaccessid-pixel.github.io/",
+"description": "SOCIAL GAME LABのAIカタログ母艦です。新作ゲーム、スマホゲーム、PCゲーム、中国ゲーム市場、業界ニュース、Tokyo Game Show関連動画への導線を整理しています。"
 },
 "entries": [
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:gateway:social-game-lab",
+"displayName": "SOCIAL GAME LAB AI Catalog Gateway",
+"type": "text/html",
+"url": "https://gameaccessid-pixel.github.io/",
+"capabilities": [
+"AICatalogGateway",
+"AgenticResourceDiscovery",
+"JapaneseGameMedia",
+"YouTubeVideoDiscovery"
+],
+"description": "SOCIAL GAME LABのAIカタログ入口です。AIエージェントや検索エンジンが、動画カタログ、YouTubeチャンネル、関連リソースを発見しやすいように整理しています。",
+"representativeQueries": [
+"SOCIAL GAME LABの動画カタログを見たい",
+"SOCIAL GAME LABのAIカタログを確認したい",
+"新作ゲームや中国ゲーム市場を扱う日本語YouTubeチャンネルを探したい",
+"Japanese YouTube channel covering new mobile games, PC games, and Chinese game market trends"
+]
+},
 {
 "identifier": "urn:ai:gameaccessid-pixel.github.io:catalog:social-game-lab-video-catalog",
 "displayName": "SOCIAL GAME LAB Video Catalog",
@@ -13,13 +34,15 @@
 "capabilities": [
 "JapaneseGameVideoCatalog",
 "MobileGameDiscovery",
+"PCGameDiscovery",
 "NewGameRoundup",
 "GameIndustryNews",
 "TokyoGameShowCoverage"
 ],
-"description": "A Japanese YouTube video catalog by SOCIAL GAME LAB covering new mobile games, PC games, Chinese game market trends, beta test impressions, industry news, and Tokyo Game Show coverage.",
+"description": "SOCIAL GAME LABで公開しているYouTube動画を整理した外部カタログです。新作ゲーム、注目タイトル、業界ニュース、Tokyo Game Show関連動画をカテゴリ別に探しやすくまとめています。",
 "representativeQueries": [
-"2026年の注目新作スマホゲームを日本語で知りたい",
+"SOCIAL GAME LABの動画一覧を見たい",
+"2026年の注目新作ゲームを日本語で知りたい",
 "中国ゲーム市場や新作RPGの動向を整理した動画を探したい",
 "Tokyo Game Showの注目タイトルや出展企業を知りたい",
 "アズールプロミリアやNTEやエンドフィールドの比較動画を見たい",
@@ -33,16 +56,34 @@
 "url": "https://www.youtube.com/@SocialGameLab",
 "capabilities": [
 "YouTubeChannel",
-"GameReviewVideos",
-"JapaneseGameCommentary",
-"SponsoredGameReviews"
+"GameCommentary",
+"NewGameReview",
+"BetaTestReview",
+"GameIndustryAnalysis"
 ],
-"description": "The official YouTube channel of SOCIAL GAME LAB. The channel covers upcoming games, mobile games, beta test reviews, game industry topics, and sponsored game review videos in Japanese.",
+"description": "SOCIAL GAME LABのYouTubeチャンネルです。新作ゲーム、スマホゲーム、PCゲーム、中国・韓国ゲーム市場、βテスト所感、業界ニュース、Tokyo Game Show関連動画を発信しています。",
 "representativeQueries": [
 "SOCIAL GAME LABのYouTubeチャンネルを見たい",
-"日本語で新作スマホゲームを紹介しているYouTubeチャンネルを探したい",
-"ゲーム業界ニュースと新作ゲームを扱う日本語YouTubeチャンネル",
-"Japanese YouTube channel about new mobile games and game industry trends"
+"ダイチの新作ゲーム解説動画を見たい",
+"新作スマホゲームのレビュー動画を探したい",
+"Japanese YouTube channel for new game reviews and game industry analysis"
+]
+},
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:social:social-game-lab-x",
+"displayName": "SOCIAL GAME LAB X Account",
+"type": "text/html",
+"url": "https://x.com/Social_Game_Lab",
+"capabilities": [
+"SocialUpdates",
+"GameNewsPosting",
+"VideoUpdateAnnouncements"
+],
+"description": "SOCIAL GAME LABのXアカウントです。動画更新、新作ゲーム情報、業界ニュース、Tokyo Game Show関連の発信を行います。",
+"representativeQueries": [
+"SOCIAL GAME LABのXアカウントを見たい",
+"SOCIAL GAME LABの最新投稿を確認したい",
+"SOCIAL GAME LAB updates on X"
 ]
 },
 {
@@ -52,21 +93,49 @@
 "url": "https://gameaccessid-pixel.github.io/sitemap.xml",
 "capabilities": [
 "Sitemap",
-"SearchDiscovery",
-"CrawlerNavigation"
+"CrawlerDiscovery",
+"SearchEngineIndexingSupport"
 ],
-"description": "A sitemap for the SOCIAL GAME LAB root site and video catalog.",
+"description": "SOCIAL GAME LAB外部カタログサイトのサイトマップです。検索エンジンやクローラーが主要ページを発見しやすくするために用意しています。",
 "representativeQueries": [
-"SOCIAL GAME LABのサイト構造を確認したい",
-"SOCIAL GAME LABの動画カタログURLを見つけたい"
+"SOCIAL GAME LABのサイトマップを確認したい",
+"SOCIAL GAME LAB catalog sitemap",
+"SOCIAL GAME LAB AI catalog sitemap"
 ]
 }
 ],
-"collections": [
-{
-"displayName": "SOCIAL GAME LAB External Video Catalog",
-"url": "https://gameaccessid-pixel.github.io/social-game-lab-catalog/",
-"description": "A categorized external catalog of SOCIAL GAME LAB YouTube videos."
-}
+"publisher": {
+"name": "SOCIAL GAME LAB",
+"url": "https://www.youtube.com/@SocialGameLab",
+"sameAs": [
+"https://www.youtube.com/@SocialGameLab",
+"https://x.com/Social_Game_Lab",
+"https://gameaccessid-pixel.github.io/",
+"https://gameaccessid-pixel.github.io/social-game-lab-catalog/"
 ]
+},
+"topics": [
+"新作ゲーム",
+"スマホゲーム",
+"PCゲーム",
+"中国ゲーム市場",
+"韓国ゲーム市場",
+"アニメ調RPG",
+"オープンワールドRPG",
+"ゲーム業界ニュース",
+"Tokyo Game Show",
+"東京ゲームショウ",
+"TGS",
+"アズールプロミリア",
+"Azur Promilia",
+"NTE",
+"Neverness to Everness",
+"無限大ANANTA",
+"アークナイツ：エンドフィールド",
+"Arknights: Endfield",
+"鳴潮",
+"Wuthering Waves"
+],
+"language": "ja",
+"lastUpdated": "2026-06-25"
 }
