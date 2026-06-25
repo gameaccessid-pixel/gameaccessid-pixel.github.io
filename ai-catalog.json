@@ -18,7 +18,7 @@
 "JapaneseGameMedia",
 "YouTubeVideoDiscovery"
 ],
-"description": "SOCIAL GAME LABのAIカタログ入口です。AIエージェントや検索エンジンが、動画カタログ、YouTubeチャンネル、関連リソースを発見しやすいように整理しています。",
+"description": "SOCIAL GAME LABのAIカタログ入口です。AIエージェントや検索エンジンが、動画カタログ、カテゴリページ、YouTubeチャンネル、関連リソースを発見しやすいように整理しています。",
 "representativeQueries": [
 "SOCIAL GAME LABの動画カタログを見たい",
 "SOCIAL GAME LABのAIカタログを確認したい",
@@ -37,16 +37,82 @@
 "PCGameDiscovery",
 "NewGameRoundup",
 "GameIndustryNews",
+"FeaturedNewGameReviews",
 "TokyoGameShowCoverage"
 ],
-"description": "SOCIAL GAME LABで公開しているYouTube動画を整理した外部カタログです。新作ゲーム、注目タイトル、業界ニュース、Tokyo Game Show関連動画をカテゴリ別に探しやすくまとめています。",
+"description": "SOCIAL GAME LABで公開しているYouTube動画を整理した外部カタログトップです。新作ゲーム×業界ニュース、注目の新作ピックアップ、Tokyo Game Show関連動画へのカテゴリ導線をまとめています。",
 "representativeQueries": [
 "SOCIAL GAME LABの動画一覧を見たい",
+"SOCIAL GAME LABのカテゴリ別動画カタログを見たい",
 "2026年の注目新作ゲームを日本語で知りたい",
 "中国ゲーム市場や新作RPGの動向を整理した動画を探したい",
 "Tokyo Game Showの注目タイトルや出展企業を知りたい",
-"アズールプロミリアやNTEやエンドフィールドの比較動画を見たい",
 "Japanese YouTube videos about upcoming mobile games and anime-style RPGs"
+]
+},
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:category:new-games-industry-news",
+"displayName": "New Games and Game Industry News",
+"type": "text/html",
+"url": "https://gameaccessid-pixel.github.io/social-game-lab-catalog/new-games-industry-news/",
+"capabilities": [
+"NewGameRoundup",
+"GameIndustryNews",
+"ChineseGameMarketAnalysis",
+"AnimeStyleRPGTrends",
+"OpenWorldRPGAnalysis",
+"BetaTestAndDevelopmentStatus"
+],
+"description": "SOCIAL GAME LABの「新作ゲーム×業界ニュース」カテゴリです。複数の新作タイトルと業界トピックを横断し、ゲームの設計、継続性、市場の流れを整理した動画を掲載しています。",
+"representativeQueries": [
+"新作ゲームと業界ニュースを横断して整理した動画を見たい",
+"中国ゲーム市場やアニメ調RPGの動向を知りたい",
+"NTEやアズールプロミリアやエンドフィールドの比較動画を探したい",
+"2026年の新作ゲーム市場の流れを知りたい",
+"Japanese game industry news and new game roundup videos"
+]
+},
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:category:featured-new-games",
+"displayName": "Featured New Games",
+"type": "text/html",
+"url": "https://gameaccessid-pixel.github.io/social-game-lab-catalog/featured-new-games/",
+"capabilities": [
+"FeaturedNewGameReviews",
+"BetaTestReview",
+"HandsOnImpressions",
+"GameSystemExplanation",
+"MobileGameReview",
+"PCGameReview"
+],
+"description": "SOCIAL GAME LABの「注目の新作ピックアップ」カテゴリです。アズールプロミリア、鳴潮、無限大ANANTA、アークナイツ：エンドフィールド、七つの大罪：Origin、デュエットナイトアビス、ドルフロ2など、単体タイトルのレビューやβテスト所感を整理しています。",
+"representativeQueries": [
+"注目の新作ゲームレビュー動画を見たい",
+"アズールプロミリアのβテストレビューを見たい",
+"アズールプロミリアのキボや印やブレイクの解説を見たい",
+"鳴潮やエンドフィールドや無限大ANANTAのレビューを探したい",
+"Japanese beta test review videos for upcoming mobile games"
+]
+},
+{
+"identifier": "urn:ai:gameaccessid-pixel.github.io:category:tokyo-game-show",
+"displayName": "Tokyo Game Show Coverage",
+"type": "text/html",
+"url": "https://gameaccessid-pixel.github.io/social-game-lab-catalog/tokyo-game-show/",
+"capabilities": [
+"TokyoGameShowCoverage",
+"TGSBoothGuide",
+"GameEventReport",
+"HandsOnPreview",
+"ExhibitorAndTitleDiscovery"
+],
+"description": "SOCIAL GAME LABのTokyo Game Show（東京ゲームショウ）関連カテゴリです。TGS2024、TGS2025の注目タイトル、出展企業、ブース情報、試遊レビュー、会場レポートを整理しています。",
+"representativeQueries": [
+"Tokyo Game Showの注目タイトルを知りたい",
+"TGS2025の出展企業や試遊タイトルを整理した動画を見たい",
+"東京ゲームショウで注目の中国ゲームや韓国ゲームを知りたい",
+"TGSの試遊レビュー動画を探したい",
+"Japanese Tokyo Game Show coverage videos"
 ]
 },
 {
@@ -96,7 +162,7 @@
 "CrawlerDiscovery",
 "SearchEngineIndexingSupport"
 ],
-"description": "SOCIAL GAME LAB外部カタログサイトのサイトマップです。検索エンジンやクローラーが主要ページを発見しやすくするために用意しています。",
+"description": "SOCIAL GAME LAB外部カタログサイトのサイトマップです。検索エンジンやクローラーが主要HTMLページを発見しやすくするために用意しています。",
 "representativeQueries": [
 "SOCIAL GAME LABのサイトマップを確認したい",
 "SOCIAL GAME LAB catalog sitemap",
@@ -111,7 +177,10 @@
 "https://www.youtube.com/@SocialGameLab",
 "https://x.com/Social_Game_Lab",
 "https://gameaccessid-pixel.github.io/",
-"https://gameaccessid-pixel.github.io/social-game-lab-catalog/"
+"https://gameaccessid-pixel.github.io/social-game-lab-catalog/",
+"https://gameaccessid-pixel.github.io/social-game-lab-catalog/new-games-industry-news/",
+"https://gameaccessid-pixel.github.io/social-game-lab-catalog/featured-new-games/",
+"https://gameaccessid-pixel.github.io/social-game-lab-catalog/tokyo-game-show/"
 ]
 },
 "topics": [
@@ -122,19 +191,36 @@
 "韓国ゲーム市場",
 "アニメ調RPG",
 "オープンワールドRPG",
+"アクションRPG",
 "ゲーム業界ニュース",
+"βテスト",
+"ゲームレビュー",
+"ゲーム考察",
 "Tokyo Game Show",
 "東京ゲームショウ",
 "TGS",
+"TGS2024",
+"TGS2025",
 "アズールプロミリア",
 "Azur Promilia",
+"蓝色星原：旅谣",
+"Manjuu Games",
+"キボ",
+"奇波",
 "NTE",
 "Neverness to Everness",
 "無限大ANANTA",
+"ANANTA",
 "アークナイツ：エンドフィールド",
 "Arknights: Endfield",
 "鳴潮",
-"Wuthering Waves"
+"Wuthering Waves",
+"七つの大罪：Origin",
+"デュエットナイトアビス",
+"ドールズフロントライン2",
+"ドルフロ2",
+"リミットゼロブレイカーズ",
+"BREAKERS"
 ],
 "language": "ja",
 "lastUpdated": "2026-06-25"
